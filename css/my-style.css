@@ -56,6 +56,7 @@
 .nav-text li {
     list-style-type: none;
     padding: 0 2rem;
+
 }
 
 .nav-text li a {
@@ -63,7 +64,7 @@
     color: var(--black);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bolder;
-    transition: all .3s ease-in-out;
+
 }
 
 .nav-text li a:hover {
@@ -74,7 +75,7 @@
 
 
 .header-inner img {
-    width: 150px;
+    width: 100px;
     height: 100px;
 }
 
@@ -460,6 +461,8 @@ color: var(--yellow);
         right: 39rem;
        display: none;
         padding: 1rem;
+        height: 100vh;
+        background-color: #eaeaea;
         transition: all .3s ease-in-out;
     }
 
@@ -509,12 +512,18 @@ color: var(--yellow);
     
     
     }
+    .nav_toggle {
+        display: block;
+        width: 100%;
+         z-index: 99999;
+         top: 7rem;
+         right: 0rem;
+     }
+     
    
 }
 
-.nav_toggle {
-   display: block;
-}
+
 
 
 
@@ -579,6 +588,13 @@ color: var(--yellow);
 .footer-wrapper-inner .form {
     display: block;
 }
+.nav_toggle {
+    display: block;
+    width: 100%;
+     z-index: 99999;
+     top: 7rem;
+     right: 0rem;
+ }
  }
 
 
@@ -595,14 +611,14 @@ color: var(--yellow);
     }
     .nav-text {
  
-        top: 5.5rem;
+        top: 6rem;
         right: 2rem;
     
     }
 
-.nav-text ul {
+/* .nav-text ul {
     flex-direction: row;
-}
+} */
     .nav-text ul li {
         margin:  0;
         padding: .3rem .3rem;
@@ -625,7 +641,16 @@ color: var(--yellow);
     .main-content .card-inner {
         flex: 100%;
         max-width: 100%;
-    
+        box-shadow:none;
     
     }
+    .nav_toggle {
+        display: block;
+        width: 100%;
+         z-index: 99999;
+         top: 7rem;
+         right: 0rem;
+     }
+
+
  }
